@@ -33,5 +33,7 @@ public class Demo2 {
 		scheduler.scheduleJob(jobDetail,trigger );
 		scheduler.start();//启动调度任务
 		
+		System.out.println("在hot_fix上进行了修改。。。");
+		
 	}
 }
