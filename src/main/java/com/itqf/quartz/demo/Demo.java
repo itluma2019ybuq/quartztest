@@ -23,6 +23,6 @@ public class Demo {
 		Scheduler scheduler = factory.getScheduler();
 		scheduler.scheduleJob(jobDetail,trigger );
 		scheduler.start();//启动调度任务
-		
+		System.out.println("11111111111111");
 	}
 }
